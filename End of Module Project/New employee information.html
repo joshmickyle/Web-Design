@@ -1,81 +1,103 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="EOMP.css">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="EOMP.css">
     <title>
-Simplicity
+Simplicity is key!
     </title>
 </head>
 <body>
-  <header>
+    <header>
+        <nav id="navigationBar">
+            <ul>
+              <li>
+                <a href="New employee information.html" class="link">New Employee</a>
+              </li>
+              <li>
+                <a href="Current Employees.html" class="link">Current Top Employees</a>
+              </li>
+              <li>
+                <a href="Top pics.html" class="link">This Months Top Sale Items</a>
+              </li>
+              <li>
+                <a href="About us page.html" class="link">About Us</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    <div id="page-container">
+    <div id="content-wrap">
+    <div class="box flex">
+      <p>
+        <form class="formbox">
+      <h1 align="center">Enter New Employee Information:</h1>
+      <table align="center">
+        <tr>
+          <td class="right-align">First Name:</td>
+          <td><input type = "text" size="20"></td>
+          <td class="right-align">Gender:</td>
+          <td>
+          <select name="gender">
+          <option value="M">Male</option>
+          <option value="F">Female</option>
+          <option value="O">Other</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="right-align">Last Name:</td>
+          <td><input type = "text"></td>
+          <td class="right-align">Date of Birth:</td>
+          <td><input type = "date" class = "right-align"></td>
+        </tr>
+      </table>
+      <table align="center">
+        <tr>
+          <td class="right-align">Street:</td>
+          <td><input type = "text" size = "20"></td>
+        <tr>
+          <td class="right-align">City:</td>
+          <td><input type = "text"></td>
+        <tr>
+          <td class="right-align">Province:</td>
+          <td><select name="Province">
+          <option>Select a province</option>  
+          <option>Eastern Cape</option>
+          <option>Free State</option>
+          <option>Gauteng</option>
+          <option>Kwazulu-Natal</option>
+          <option>Limpopo</option>
+          <option>Mpumalanga</option>
+          <option>Northern Cape</option>
+          <option>North West</option>
+          <option>Western Cape</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td class="right-align">Zip Code:</td>
+          <td><input type = "text" size="20"></td>
+        </tr>
+        <tr>
+          <td class="right-align">Phone:</td>
+          <td><input type = "text"></td>
+      </table>
+    </form>
+      </p>
+    </div>
+  </div>
+  <footer id="footer">
     <nav id="navigationBar">
-        <ul>
-          <li>
-            <a href="New employee information.html" class="link">New Employee</a>
-          </li>
-          <li>
-            <a href="Current Employees.html" class="link">Current Top Employees</a>
-          </li>
-          <li>
-            <a href="Top pics.html" class="link">This Months Top Sale Items</a>
-          </li>
-          <li>
-            <a href="About us page.html" class="link">About Us</a>
-          </li>
-        </ul>
-      </nav>
-</header>
-  <form>
-    <h1 align="center">Employee Data</h1>
-    <table align="center">
-      <tr>
-        <td class="right-align">First Name:</td>
-        <td><input type = "text" size="20"></td>
-        <td class="right-align">Gender:</td>
-        <td>
-        <select name="gender">
-        <option value="M">Male</option>
-        <option value="F">Female</option>
-        <option value="O">Other</option>
-        </select>
-        </td>
-      </tr>
-      <tr>
-        <td class="right-align">Last Name:</td>
-        <td><input type = "text"></td>
-        <td class="right-align">Date of Birth:</td>
-        <td><input type = "date" class = "right-align"></td>
-      </tr>
-    </table>
-    <table align="center">
-      <tr>
-        <td class="right-align">Street:</td>
-        <td><input type = "text" size = "20"></td>
-      <tr>
-        <td class="right-align">City:</td>
-        <td><input type = "text"></td>
-      <tr>
-        <td class="right-align">Province:</td>
-        <td><select name="Province">
-        <option>Select a province</option>  
-        <option>Eastern Cape</option>
-        <option>Free State</option>
-        <option>Gauteng</option>
-        <option>Kwazulu-Natal</option>
-        <option>Limpopo</option>
-        <option>Mpumalanga</option>
-        <option>Northern Cape</option>
-        <option>North West</option>
-        <option>Western Cape</option>
-        </select></td>
-      </tr>
-      <tr>
-        <td class="right-align">Zip Code:</td>
-        <td><input type = "text" size="20"></td>
-      </tr>
-      <tr>
-        <td class="right-align">Phone:</td>
-        <td><input type = "text"></td>
-    </table>
-  </form>
+      <ul>
+        <li>
+          <a>SIMPLICITY IS KEY: BROUGHT TO YOU BY JOSH-MICKYLE BARON</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</div>
 </body>
 </html>
