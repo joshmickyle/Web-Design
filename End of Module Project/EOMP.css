@@ -26,6 +26,29 @@ body {
 #navigationBar > ul > li > a:hover {
   color: gold;
 }
+/*Footer is below*/
+#navigationfoot {
+  background: #24292e;
+  box-shadow: 0px 1px 10px 10px #ddd;
+  height: auto;
+  text-align: center;
+  width: 100%;
+}
+#navigationfoot > ul > li {
+  display: inline;
+}
+#navigationfoot > ul > li > a {
+  color: whitesmoke;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin: 0px;
+  padding: 0px 15px;
+  text-decoration: none;
+}
+#navigationfoot > ul > li > a:hover {
+  color: gold;
+}
 /*End of nav bar styling*/
 /*styling of the background image*/
 body {
@@ -82,11 +105,6 @@ body {
 
 /*below styling is for about us page*/
 /* flex box styling for about us content*/
-.box.flex {
-  display: flex;
-  justify-content: center;
-}
-
 .about-us-flex {
   padding: 50px;
   height: 300px;
@@ -102,3 +120,43 @@ body {
 }
 /*end of flex box styling*/
 /*end of styling for about us*/
+
+/*Below styling is for top pics page*/
+.toppics.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.toppics.flex {
+  padding: 50px;
+  width: 1000px;
+  box-shadow: 2px 2px 5px #24292e;
+  border-radius: 4px;
+  margin: auto;
+
+  color: #24292e;
+  font-family: "Lucida Console", monospace;
+  background: whitesmoke;
+  border: 2px solid #24292e;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.breakcolumn {
+  flex-basis: 100%;
+  width: 0;
+}
+.pic_1 {
+  margin: 2%;
+  box-sizing: border-box;
+  flex-basis: auto;
+}
+
+.pic_2 {
+  margin: 2%;
+  box-sizing: border-box;
+  flex-basis: auto;
+}
+/*End of styling for top pics page*/
