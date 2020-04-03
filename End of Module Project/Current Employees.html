@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="EOMP.css">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="EOMP.css">
     <title>
 Simplicity is key!
     </title>
@@ -29,11 +36,220 @@ Simplicity is key!
       <div class="box flex">
         <p>
           <h1 align="center">Current Top Employee's:</h1>
+          <h2 align="center">Click on an image for more details</h2>
         </p>
+        <div class="cardwhole">
+          <div class="card">
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic1"><img src="Resources\rspoon.JPG" class="mockcard"></button>
+              <h1>Reece Witherspoon</h1>
+              <div class="designation">Clothing Model</div>
+              <p>Contact: +27 846029091</p>
+            </div>
+          <div class="card">
+              <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic2"><img src="Resources\rnospoon.PNG" class="mockcard"></button>
+              <h1>Reece Withnospoon</h1>
+              <div class="designation">Clothing Model</div>
+              <p>Contact: +27 846025497</p>
+            </div>
+            <div class="card">
+              <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic3"><img src="Resources\kanye.jpg" class="mockcard"></button>
+              <h1>Kanye North-West</h1>
+              <div class="designation">Creative Director</div>
+              <p>Contact: +27 841239874</p>
+            </div>
+          </div>
+          <div class="cardwhole">
+          <div class="card">
+              <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic4"><img src="Resources\chris.jpg" class="mockcard"></button>
+              <h1>Christopher White</h1>
+              <div class="designation">Advertising Director</div>
+              <p>Contact: +27 7536159802</p>
+            </div>
+          <div class="card">
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic5"><img src="Resources\jason.jpg" class="mockcard"></button>
+              <h1>Jason Twodrag</h1>
+              <div class="designation">Freelance Web Developer</div>
+              <p>Contact: +27 7845692358</p>
+            </div>
+            <div class="card">
+              <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic6"><img src="Resources\david.jpg" class="mockcard"></button>
+              <h1>David Mouthham</h1>
+              <div class="designation">Design Manager</div>
+              <p>Contact: +27 896547826</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!--Below is modal for pic 1-->
+    <div class="modal fade" id="myModalpic1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">Reece Witherspoon</h4>
+          </div>
+          <div class="modal-body">
+            <p>Name: Reece</p>
+            <p>Last Name: Witherspoon</p>
+            <p>Gender: Female</p>
+            <p>Date of Birth: 02/09/1985</p>
+            <p>Address: 4 Buckley Close</p>
+            <p>Phone Number: 0845698745</p>
+            <p>Next of kin information:</p>
+            <p>Name: Thania</p>
+            <p>Last Name: Witherspoon</p>
+            <p>Relationship: Mother</p>
+            <p>Phone Number: 0845931258</p>
+            <p>Address: 4 Buckley close</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Below is modal for pic 2-->
+    <div class="modal fade" id="myModalpic2" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">Reece Withnospoon</h4>
+          </div>
+          <div class="modal-body">
+            <p>Name: Reece</p>
+            <p>Last Name: Withnospoon</p>
+            <p>Gender: Female</p>
+            <p>Date of Birth: 02/09/1985</p>
+            <p>Address: 4 Buckley Close</p>
+            <p>Phone Number: 0844698745</p>
+            <p>Next of kin information:</p>
+            <p>Name: Thania</p>
+            <p>Last Name: Witherspoon</p>
+            <p>Relationship: Mother</p>
+            <p>Phone Number: 0845931258</p>
+            <p>Address: 4 Buckley close</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Below is modal for pic 3-->
+    <div class="modal fade" id="myModalpic3" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">Kanye North-West</h4>
+          </div>
+          <div class="modal-body">
+            <p>Name: Kanye</p>
+            <p>Last Name: North-West</p>
+            <p>Gender: Male</p>
+            <p>Date of Birth: 22/04/1980</p>
+            <p>Address: 4 Pinsir Street Observatory</p>
+            <p>Phone Number: 0845698545</p>
+            <p>Next of kin information:</p>
+            <p>Name: Kim</p>
+            <p>Last Name: Kardashian-North</p>
+            <p>Relationship: Wife</p>
+            <p>Phone Number: 0844941758</p>
+            <p>Address: 4 Pinsir Street Observatory</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Below is modal for pic 4-->
+    <div class="modal fade" id="myModalpic4" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">Christopher White</h4>
+          </div>
+          <div class="modal-body">
+            <p>Name: Christopher</p>
+            <p>Last Name: White</p>
+            <p>Gender: Male</p>
+            <p>Date of Birth: 07/01/1987</p>
+            <p>Address: 32 Marowak Close</p>
+            <p>Phone Number: 0847898745</p>
+            <p>Next of kin information:</p>
+            <p>Name: Rihana</p>
+            <p>Last Name: Therealone</p>
+            <p>Relationship: Wife</p>
+            <p>Phone Number: 0847831258</p>
+            <p>Address: 32 Marowak close</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Below is modal for pic 5-->
+    <div class="modal fade" id="myModalpic5" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">Jason Twodrag</h4>
+          </div>
+          <div class="modal-body">
+            <p>Name: Jason-Legend</p>
+            <p>Last Name: Twodrag</p>
+            <p>Gender: Male</p>
+            <p>Date of Birth: 01/01/1992</p>
+            <p>Address: 8 Charmander Lane</p>
+            <p>Phone Number: 0845698745</p>
+            <p>Next of kin information:</p>
+            <p>Name: Rebecca</p>
+            <p>Last Name: Olsin</p>
+            <p>Relationship: Significant Other</p>
+            <p>Phone Number: 0845937898</p>
+            <p>Address: 23 Pikachu Avenue</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Below is modal for pic 6-->
+    <div class="modal fade" id="myModalpic6" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">David Mouthham</h4>
+          </div>
+          <div class="modal-body">
+            <p>Name: David</p>
+            <p>Last Name: Mouthham</p>
+            <p>Gender: Male</p>
+            <p>Date of Birth: 02/09/1981</p>
+            <p>Address: 24 London Road</p>
+            <p>Phone Number: 0845698745</p>
+            <p>Next of kin information:</p>
+            <p>Name: Beyonce</p>
+            <p>Last Name: Mouthham</p>
+            <p>Relationship: Wife</p>
+            <p>Phone Number: 0844531258</p>
+            <p>Address: 24 London Road</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
     <footer id="footer">
-      <nav id="navigationBar">
+      <nav id="navigationfoot">
         <ul>
           <li>
             <a>SIMPLICITY IS KEY: BROUGHT TO YOU BY JOSH-MICKYLE BARON</a>

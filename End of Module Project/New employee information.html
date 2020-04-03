@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="EOMP.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="EOMP.css">
     <title>
 Simplicity is key!
     </title>
@@ -54,6 +56,7 @@ Simplicity is key!
           <td class="right-align">Date of Birth:</td>
           <td><input type = "date" class = "right-align"></td>
         </tr>
+        <tr><td><p></p></td></tr>
       </table>
       <table align="center">
         <tr>
@@ -84,13 +87,79 @@ Simplicity is key!
         <tr>
           <td class="right-align">Phone:</td>
           <td><input type = "text"></td>
+        </tr>
+        <tr>
+          <td>
+            <p> </p>
+          </td>
+        </tr>
+        <table align="center">
+          <tr>
+            <h2 align="center">Employee Next of Kin Information</h2>
+          </tr>
+          <tr>
+            <td class="right-align">First Name:</td>
+            <td><input type = "text" size="20"></td>
+            <td class="right-align">Relationship:</td>
+            <td><input type = "text" size="20"></td>
+          </tr>
+          <tr>
+            <td class="right-align">Last Name:</td>
+            <td><input type = "text"></td>
+            <td class="right-align">Cell Number:</td>
+            <td><input type = "text" size="20"></td>
+          </tr>
+          <tr>
+            <td>
+              <p> </p>
+            </td>
+          </tr>
+        </table>
+        <table align="center">
+          <tr>
+            <td class="right-align">Street:</td>
+            <td><input type = "text" size = "20"></td>
+          <tr>
+            <td class="right-align">City:</td>
+            <td><input type = "text"></td>
+          <tr>
+            <td class="right-align">Province:</td>
+            <td><select name="Province">
+            <option>Select a province</option>  
+            <option>Eastern Cape</option>
+            <option>Free State</option>
+            <option>Gauteng</option>
+            <option>Kwazulu-Natal</option>
+            <option>Limpopo</option>
+            <option>Mpumalanga</option>
+            <option>Northern Cape</option>
+            <option>North West</option>
+            <option>Western Cape</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td class="right-align">Zip Code:</td>
+            <td><input type = "text" size="20"></td>
+          </tr>
+          <tr>
+            <td class="right-align">Phone:</td>
+            <td><input type = "text"></td>
+          </tr>
+        </table>
+      <table align="center">
+        <tr>
+          <td align="left"><button type="button" class="btn btn-default" data-dismiss="modal"><a href="New employee information.html" class="link">Submit</a></button></td>
+          <td align="center"><button type="button" class="btn btn-default" data-dismiss="modal"><a href="New employee information.html" class="link">Cancel</a></button></td>
+          <td align="right"><button type="button" class="btn btn-default" data-dismiss="modal"><a href="New employee information.html" class="link">Reload</a></button></td>
+        </tr>
+      </table>
       </table>
     </form>
       </p>
     </div>
   </div>
   <footer id="footer">
-    <nav id="navigationBar">
+    <nav id="navigationfoot">
       <ul>
         <li>
           <a>SIMPLICITY IS KEY: BROUGHT TO YOU BY JOSH-MICKYLE BARON</a>

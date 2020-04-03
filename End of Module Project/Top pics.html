@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="EOMP.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="EOMP.css">
     <title>
 Simplicity
     </title>
@@ -31,19 +38,95 @@ Simplicity
           <h1 align="center">This Months Top Sale Items:</h1>
           <div class="break"></div>
         </p>
+        <!--Picture 1-->
         <p class="pic_1">
-          <img src="Resources\jumper_white.PNG" width="200">
+          <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal1"><img src="Resources\jumper_white.PNG" width="200"></button>
         </p>
+        <!--Picture 2-->
         <p class="pic_1">
-          <img src="Resources\flask_black.PNG" width="200">
+          <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal2"><img src="Resources\flask_black.PNG" width="200"></button>
           <div class="breakcolumn"></div>
         </p>
+        <!--Picture 3-->
         <p class="pic_2">
-          <img src="Resources\jumper_black.PNG" width="200">
+          <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal3"><img src="Resources\jumper_black.PNG" width="200"></button>
         </p>
+        <!--Picture 4-->
         <p class="pic_2">
-          <img src="Resources\tee_white.PNG" width="200">
+          <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal4"><img src="Resources\tee_white.PNG" width="200"></button>
         </p>
+      </div>
+    </div>
+    <!--Below is modal for pic 1-->
+    <div class="modal fade" id="myModal1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">White Mens "White "Jumper</h4>
+          </div>
+          <div class="modal-body">
+            <p><img src="Resources\jumper_white.PNG" width="300"><img src="Resources\jumper_white_back.PNG" width="300"></p>
+            <p>Price: R999</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Below is modal for pic 2-->
+    <div class="modal fade" id="myModal2" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">Black "Water" And "Cold" Flask</h4>
+          </div>
+          <div class="modal-body">
+            <p><img src="Resources\flask_black.PNG" width="300"><img src="Resources\flask_black_cold.PNG" width="300"></p>
+            <p>Price: R299</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Below is modal for pic 3-->
+    <div class="modal fade" id="myModal3" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">Black Mens "Plain" Jumper</h4>
+          </div>
+          <div class="modal-body">
+            <p><img src="Resources\jumper_black.PNG" width="300"><img src="Resources\jumper_black_back.PNG" width="300"></p>
+            <p>Price: R999</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Below is modal for pic 4-->
+    <div class="modal fade" id="myModal4" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" align="center">White Mens "Black" Tee</h4>
+          </div>
+          <div class="modal-body">
+            <p><img src="Resources\tee_white.PNG" width="300"><img src="Resources\tee_white_back.PNG" width="300"></p>
+            <p>Price: R599</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
     <footer id="footer">
