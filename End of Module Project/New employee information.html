@@ -39,11 +39,11 @@ Simplicity is key!
       <h1 align="center">Enter New Employee Information:</h1>
       <table align="center">
         <tr>
-          <td class="right-align">First Name:</td>
-          <td><input type = "text" size="20"></td>
-          <td class="right-align">Gender:</td>
+          <td class="right-align">First Name: </td>
+          <td><input type = "text" size="20" required placeholder="First Name"></td>
+          <td class="right-align">Gender: </td>
           <td>
-          <select name="gender">
+          <select name="gender" required placeholder="Selecet Gender">
           <option value="M">Male</option>
           <option value="F">Female</option>
           <option value="O">Other</option>
@@ -51,42 +51,17 @@ Simplicity is key!
           </td>
         </tr>
         <tr>
-          <td class="right-align">Last Name:</td>
-          <td><input type = "text"></td>
-          <td class="right-align">Date of Birth:</td>
-          <td><input type = "date" class = "right-align"></td>
+          <td class="right-align">Last Name: </td>
+          <td><input type = "text" required placeholder="Last Name"></td>
+          <td class="right-align">Date of Birth: </td>
+          <td><input type = "date" class = "right-align" required></td>
         </tr>
         <tr><td><p></p></td></tr>
       </table>
       <table align="center">
         <tr>
-          <td class="right-align">Street:</td>
-          <td><input type = "text" size = "20"></td>
-        <tr>
-          <td class="right-align">City:</td>
-          <td><input type = "text"></td>
-        <tr>
-          <td class="right-align">Province:</td>
-          <td><select name="Province">
-          <option>Select a province</option>  
-          <option>Eastern Cape</option>
-          <option>Free State</option>
-          <option>Gauteng</option>
-          <option>Kwazulu-Natal</option>
-          <option>Limpopo</option>
-          <option>Mpumalanga</option>
-          <option>Northern Cape</option>
-          <option>North West</option>
-          <option>Western Cape</option>
-          </select></td>
-        </tr>
-        <tr>
-          <td class="right-align">Zip Code:</td>
-          <td><input type = "text" size="20"></td>
-        </tr>
-        <tr>
-          <td class="right-align">Phone:</td>
-          <td><input type = "text"></td>
+          <td class="right-align">Cell Number: </td>
+          <td><input type = "number" required placeholder="Cell Number"></td>
         </tr>
         <tr>
           <td>
@@ -98,16 +73,16 @@ Simplicity is key!
             <h2 align="center">Employee Next of Kin Information</h2>
           </tr>
           <tr>
-            <td class="right-align">First Name:</td>
-            <td><input type = "text" size="20"></td>
-            <td class="right-align">Relationship:</td>
-            <td><input type = "text" size="20"></td>
+            <td class="right-align">First Name: </td>
+            <td><input type = "text" size="20" required placeholder="First Name"></td>
+            <td class="right-align">Relationship: </td>
+            <td><input type = "text" size="20" required></td>
           </tr>
           <tr>
             <td class="right-align">Last Name:</td>
-            <td><input type = "text"></td>
+            <td><input type = "text" required placeholder="Last Name"></td>
             <td class="right-align">Cell Number:</td>
-            <td><input type = "text" size="20"></td>
+            <td><input type = "number" size="20" required placeholder="Please Enter"></td>
           </tr>
           <tr>
             <td>
@@ -117,36 +92,16 @@ Simplicity is key!
         </table>
         <table align="center">
           <tr>
-            <td class="right-align">Street:</td>
-            <td><input type = "text" size = "20"></td>
-          <tr>
-            <td class="right-align">City:</td>
-            <td><input type = "text"></td>
-          <tr>
-            <td class="right-align">Province:</td>
-            <td><select name="Province">
-            <option>Select a province</option>  
-            <option>Eastern Cape</option>
-            <option>Free State</option>
-            <option>Gauteng</option>
-            <option>Kwazulu-Natal</option>
-            <option>Limpopo</option>
-            <option>Mpumalanga</option>
-            <option>Northern Cape</option>
-            <option>North West</option>
-            <option>Western Cape</option>
-            </select></td>
-          </tr>
-          <tr>
-            <td class="right-align">Zip Code:</td>
-            <td><input type = "text" size="20"></td>
-          </tr>
-          <tr>
-            <td class="right-align">Phone:</td>
-            <td><input type = "text"></td>
+            <td class="right-align">Email: </td>
+            <td><input type = "email" size = "20" required placeholder="Please Enter"></td>
           </tr>
         </table>
       <table align="center">
+        <tr>
+          <td>
+            <br>
+          </td>
+        </tr>
         <tr>
           <td align="left"><button type="button" class="btn btn-default" data-dismiss="modal"><a href="New employee information.html" class="link">Submit</a></button></td>
           <td align="center"><button type="button" class="btn btn-default" data-dismiss="modal"><a href="New employee information.html" class="link">Cancel</a></button></td>
